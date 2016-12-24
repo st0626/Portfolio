@@ -1,0 +1,1 @@
+$("#twitter-logo").hover().animate("easing");
