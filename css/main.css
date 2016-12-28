@@ -11,25 +11,6 @@
     color: green;
 }
 
- #rectangleclose {
-	width: 10px;
-	height: 10px;
-	background: red;
-	border-radius: 50px;
- }
-
-#rectangle {
-    align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-	width: 320px;
-	height: 180px;
-	background: grey;
-    border-radius: 10px;
-}
-
-
-
 				
 body {
     padding-top: 50px;
@@ -43,9 +24,15 @@ body {
    display:block;
 }
 
+#window-graphic {
+    max-height:50%; 
+    max-width:50%;
+}
 
-
-
+.row {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 
 
 
