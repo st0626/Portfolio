@@ -31,11 +31,44 @@ body {
 
 .row {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
 
 
+#about-style {
+    background-color: #77c9d4;
+    margin-top: -30px;
+}
 
 
+#contact-info {
+    background-color: #015249;
+}
 
+
+h1 {
+    font-family: "lobster";
+    color: white;
+}
+
+p {
+    font-family: "raleway";
+    color: white;
+}
+
+#portfolio-header h1 {
+    color: #a5a5af;
+}
+
+#portfolio-header p {
+    color: #a5a5af;
+}
+
+a {
+    color:white;
+}
+
+footer p {
+    color: black;
+}
 
