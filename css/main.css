@@ -12,7 +12,9 @@
 }
 
 .jumbotron {
-    margin-top: 50px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    background-color: #015249;
 }
 
 .center-block {
@@ -37,15 +39,23 @@
     margin-top: -30px;
 }
 
+#about-style p {
+    padding: 40px 0px 40px 0px;
+}
 
 #contact-info {
     background-color: #015249;
 }
 
+#contact-info h1 {
+    font-size: 5.0rem;
+    padding: 50px 0px 50px 0px;
+}
 
 h1 {
     font-family: "lobster";
     color: white;
+    text-align: center;
 }
 
 p {
@@ -54,12 +64,11 @@ p {
 }
 
 #portfolio-header h1 {
+    font-size: 5.0rem;
+    padding: 100px 0px 100px 0px;
     color: #a5a5af;
 }
 
-#portfolio-header p {
-    color: #a5a5af;
-}
 
 a {
     color:white;
@@ -73,3 +82,19 @@ body {
   position: relative;
 }
 
+li {
+    font-family: "raleway";
+}
+
+p {
+    text-align: center;
+}
+
+#mithril-header {
+    font-size: 5.0rem;
+    padding: 100px 0px 100px 0px;
+}
+
+img {
+    padding-bottom: 50px;
+}
