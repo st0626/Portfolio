@@ -1,1 +1,1 @@
-$('#portfolio-link').scroll({target: '#portfolio-header'})
+$('a').hover().effect("bounce" , {times:4}, 300);
