@@ -7,6 +7,8 @@ $('body').scrollspy({ target: '#portfolio-header'});
 
 // automatically collapse navbutton on mobile
 
-$('.nav a').on('click', function (){
-    $('.navbar-toggler').click();
-});
+//$('.nav a').on('click', function (){
+  //  $('.navbar-toggler').click();
+//}
+
+
