@@ -99,3 +99,7 @@ p {
 footer p {
     color: white;
 }
+
+img {
+    padding-bottom: 40px;
+}
