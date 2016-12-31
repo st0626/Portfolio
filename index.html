@@ -10,16 +10,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">      
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -29,103 +22,60 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Mithril Creations</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <div class="navigation">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+        
+          <nav class="navbar navbar-fixed-top navbar-full navbar-light bg-faded">
+          <div class="container">            
+            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-toggleable-md" id="navbarResponsive">              
+              <a class="navbar-brand" href="#">Mithril Creations</a>      
+              <ul class="nav navbar-nav float-lg-right">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#mithril-header">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio-scroll">Portfolio</a>
+                </li>               
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-header">Contact</a>
+                </li>               
+            </div>   
+              </ul>
+          </nav>
           </div>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Mithril Creations</h1>
-        <p>Don't want to waste time? Go straight to the portfolio</p>
-        <p><a class="btn btn-success btn-lg" href="#" role="button">Take me there! &raquo;</a></p>
-      </div>
-    </div>
+
 
       <!-- About what I do -->
-      
       <div id="about-style">
-        <div class="container">
-          <div class="row" id="first-row">
-            <div class="col-md-6">
-              <div class="animated fadeInLeft ">
-                <img  id="window-graphic" class="img-responsive center-block" src="./img/svg/circle window.svg" alt="">
-              </div>
-            </div>
-            <div class="col-md-6">
-              <h1>About What I Do</h1>
+        <div class="row">
+          <div class="container">
+            <h1 class="text-xs-center animated bounce" id="mithril-header">Mithil Creations</h1>
+            <div class="col-md-4">
+              <p><i class="fa fa-window-maximize fa-5x"></i></p>
+              <h1>About What I do</h1>
               <p>I create quality sinlge-page websites that can portray your buisiness in a fun, unique way. When I started Mithril Creations, I had so much fun with my first few customers that I decided to do this full time!</p>
             </div>
+            <div class="col-md-4">
+              <p><i class="fa fa-server fa-5x"></i></p>
+              <h1>Need me to host?</h1>
+              <p>Hosting, in it's simplest terms, is putting your website on the interente for the world to see! No worries! I can take care of hosting for you as well! I can setup your website and have it online in no time!</p>
+            </div>
+            <div class="col-md-4">
+              <p><i class="fa fa-address-card fa-5x"></i></p>
+              <h1>Your first step</h1>
+              <p>Email is the absolute best way to reach me. I get multiple updates on a ton of devices when something hits my inbox. I can usually respond within a few hours.</p>
+            </div>
           </div>
-      
-
-      <!-- I can host your site -->
-      
-        <div class="row" id="second-row">
-          <div class="col-md-6">
-            <h1>Don't know how to host a website?</h1>
-            <p>Hosting a website in it's simplest terms is putting it on the internet for the world to see. Hosting your own website can be daunting, but no worries! I have you covered and can host your website for you with no extra hassle!</p>
-          </div>
-          <div class="col-md-6">
-            <img  id="window-graphic" class="img-responsive center-block" src="./img/svg/circle window.svg" alt="">
-          </div>
-        </div>
-      
-      <!-- Starting the process -->
-       
-       <div class="row" id="third-row">
-        <div class="col-md-6">
-          <div class="animated fadeInLeft ">
-            <img  id="window-graphic" class="img-responsive center-block" src="./img/svg/circle window.svg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h1>Your first steps</h1>
-          <p>Firstly, you can contact me at a couple of different places, but Email is the absolute best.</p>
-          <p><a class="btn btn-primary" href="">Take me to contact info! &raquo;</a></p>
         </div>
       </div>
-      </div> <!--container-->
-      </div> <!--about/style-->
       <!--portfolio slides/ animated pop ins-->
 
 
-      <div class="container">
+      <div class="container" id="portfolio-scroll">
         <div class="row">
-          <div class="text-center" id="portfolio-header">
+          <div class="text-xs-center" id="portfolio-header">
             <h1>Portfolio</h1>
-            <p>Work is fun!</p>
           </div>
-            <div class="col-md-4">
-              <img class="center-block" src="img/png/placeholder square.png" alt="" height="200" width="auto">
-            </div>
-            <div class="col-md-4">
-              <img class="center-block" src="img/png/placeholder square.png" alt="" height="200" width="auto">
-            </div>
-            <div class="col-md-4">
-              <img class="center-block" src="img/png/placeholder square.png" alt="" height="200" width="auto">
-            </div>
-          </div>
-          <div class="row">
             <div class="col-md-4">
               <img class="center-block" src="img/png/placeholder square.png" alt="" height="200" width="auto">
             </div>
@@ -141,32 +91,37 @@
       <div id="contact-info">
         <div class="container">
           <div class="row">
-            <div class="text-center" id="contact-header">
-              <h1>Contact Information</h1>
-              <p>The absolute best way to reach me</p>
+            <div class="text-xs-center" >
+              <h1 id="contact-header">Contact Information</h1>
             </div>
             <div class="col-md-4">
               <h1>Email</h1>
               <p>st06266@gmail.com</p>
-              <p>My personal Email is the best way to reach me at any given time.I recieve multiple updates on a ton of devices everytime I get an email.</p>
+              <p>My personal Email is the best way to reach me at any given time. I recieve multiple updates on a ton of devices everytime I get an email.</p>
             </div>
             <div class="col-md-4">
               <h1>Twitter <i class="fa fa-mail"></i> </h1>
-              <p><a href="https://twitter.com/Puppytho">Twitter</a></p>
+              <p><a class="btn btn-success" href="https://twitter.com/Puppytho">Twitter</a></p>
               <p>Also another good way to get a hold of me. responses are quick. I spend a lot of time on here reading news of all things. </p>
             </div>
             <div class="col-md-4">
               <h1>LinkedIn</h1>
-              <p><a href="https://www.linkedin.com/in/byron-tollison-644792b8/">LinkedIn</a></p>
+              <p><a class="btn btn-success" href="https://www.linkedin.com/in/byron-tollison-644792b8/">LinkedIn</a></p>
               <p>I spend a lot of time on here as well looking for probable projects or connecting with other Developers.</p>
             </div>
           </div>
+          <hr>
+            <footer>
+              <div class="container">
+                <p>&copy; Mithril Creations 2017</p>
+              </div>
+            </footer>
         </div>
       </div>
 
 
 
-        
+    
 
 
       
@@ -174,13 +129,9 @@
       <!-----------------------------Social links------------------------------------------------>
       
       
-      <hr>
+      
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 
-      <footer>
-        <div class="container">
-          <p>&copy; Mithril Creations 2017</p>
-        </div>
-      </footer>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 

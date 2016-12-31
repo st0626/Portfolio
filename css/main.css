@@ -11,12 +11,11 @@
     color: green;
 }
 
-				
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+.jumbotron {
+    margin-top: -5px;
+    margin-bottom: 25px;
+    background-color: #015249;
 }
-
 
 .center-block {
    margin-left:auto;
@@ -24,13 +23,9 @@ body {
    display:block;
 }
 
-#window-graphic {
-    max-height:50%; 
-    max-width:50%;
-}
 
 .row {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 70px;
 }
 
@@ -40,15 +35,24 @@ body {
     margin-top: -30px;
 }
 
+#about-style p {
+    padding: 40px 0px 40px 0px;
+}
 
 #contact-info {
     background-color: #015249;
+}
+
+#contact-header{
+    font-size: 5.0rem;
+    padding: 50px 0px 100px 0px;
 }
 
 
 h1 {
     font-family: "lobster";
     color: white;
+    text-align: center;
 }
 
 p {
@@ -57,12 +61,11 @@ p {
 }
 
 #portfolio-header h1 {
+    font-size: 5.0rem;
+    padding: 20px 0px 100px 0px;
     color: #a5a5af;
 }
 
-#portfolio-header p {
-    color: #a5a5af;
-}
 
 a {
     color:white;
@@ -72,3 +75,31 @@ footer p {
     color: black;
 }
 
+body {
+  position: relative;
+}
+
+li {
+    font-family: "raleway";
+}
+
+p {
+    text-align: center;
+}
+
+#mithril-header {
+    font-size: 5.0rem;
+    padding: 100px 0px 100px 0px;
+}
+
+.navbar-brand {
+    font-family: "raleway";
+}
+
+footer p {
+    color: white;
+}
+
+img {
+    padding-bottom: 40px;
+}
