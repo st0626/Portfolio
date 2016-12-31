@@ -1,1 +1,3 @@
-$('a').hover().effect("bounce" , {times:4}, 300);
+$('body').scrollspy({ target: '#mithril-header'});
+$('body').scrollspy({ target: '#contact-header'});
+$('body').scrollspy({ target: '#portfolio-header'});

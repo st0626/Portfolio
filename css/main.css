@@ -95,3 +95,7 @@ p {
 .navbar-brand {
     font-family: "raleway";
 }
+
+footer p {
+    color: white;
+}
